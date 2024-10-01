@@ -196,6 +196,7 @@ img{
 
 ._ico{
     height: 40px;
+    filter: invert(1);
 }
 
 
@@ -220,7 +221,7 @@ img{
 
 
 a :hover{
-    filter: invert(1);
+    filter: invert(0);
     transition: 0.75s;
 }
 
