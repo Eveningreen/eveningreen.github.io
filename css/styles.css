@@ -1,0 +1,230 @@
+@import 
+url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
+
+@media (max-width: 1200px){
+    ._block{
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 867px){
+    ._block{
+        max-width: 600px;
+    }
+    .main_info{
+        max-width: 100%;
+    }
+    .info{
+        flex-wrap: wrap;
+    }
+    .main_info_card{
+        max-width: 100%;
+    }
+    .info_photo{
+        max-width: 100%;
+        min-height: 25em;
+    }
+    .title{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 640px){
+    ._block{
+        max-width: 300px;
+    }
+    .main_info{
+        max-width: 100%;
+    }
+    .info{
+        flex-wrap: wrap;
+    }
+    .main_info_card{
+        max-width: 100%;
+    }
+    .info_photo{
+        max-width: 100%;
+        min-height: 25em;
+    }
+    .title{
+        font-size: 36px !important;
+    }
+    .contact_main_1{
+        flex-wrap: wrap;
+    }
+
+    .contact_phone{
+        padding-bottom: 1em;
+    }
+}
+
+.parallax_container{
+    background-image: url("/img/klim-musalimov-1CpvLya40vo-unsplash.jpg");
+    height: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container{
+    padding-top: 5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+._block{
+    margin-bottom: 3em;
+    padding: 1em 4em;
+    color: rgba(255, 255, 255, 0.514);
+    background-color: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(5px);
+    -webkit-box-shadow: 1px 17px 41px 8px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 1px 17px 41px 8px rgba(0, 0, 0, 0.42);
+    box-shadow: 1px 17px 41px 8px rgba(0, 0, 0, 0.42);
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    min-height: 500px;
+    padding: 0;
+}
+
+.main_info_card{
+    max-height: 20em;
+    max-width: 30em;
+    /* background-color: rgba(0, 0, 0, 0.171); */
+    border-radius: 10px;
+    padding: 2%;
+    margin-right: 2%;
+    /* border: solid 1px black; */
+}
+
+.title{
+    font-size: calc(45px + 9 * (100vw / 1366));
+    font-weight: bold;
+    padding: 0.5em;
+    animation: ani 5s forwards;
+}
+
+@keyframes ani {
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.info_photo{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    min-width: 20em;
+}
+
+.info_photo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    height: 100%;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.info_photo_container:hover{
+    filter: none;
+    transition: 1s;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about_info{
+    font-size: calc(18px + 8 * (100vw / 1366));
+    text-align: center;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+}
+
+.contacts_mains{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.contacts_text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.text_text{
+    font-size: 1.5em;
+}
+
+.contact_main_1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+
+.contact_phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.phone_ico{
+    padding-bottom: 1em;
+}
+
+._ico{
+    height: 40px;
+}
+
+
+.contact_mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail_ico{
+    padding-bottom: 1em;
+}
+
+.contact_main_2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1em;
+    /* background-color: rgba(145, 145, 145, 0.164);
+    border-radius: 5px; */
+    padding-top: 1em;
+}
+
+
+a :hover{
+    filter: invert(1);
+    transition: 0.75s;
+}
+
+.footer_block{
+    padding: 1em 2em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.63);
+}
