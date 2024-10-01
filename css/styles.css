@@ -89,6 +89,7 @@ url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subs
     -webkit-box-shadow: 1px 17px 41px 8px rgba(0, 0, 0, 0.42);
     -moz-box-shadow: 1px 17px 41px 8px rgba(0, 0, 0, 0.42);
     box-shadow: 1px 17px 41px 8px rgba(0, 0, 0, 0.42);
+    border-radius: 10px;
 }
 
 .info{
