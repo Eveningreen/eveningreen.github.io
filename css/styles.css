@@ -1,6 +1,3 @@
-@import 
-url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic);
-
 @media (max-width: 1200px){
     ._block{
         max-width: 750px;
@@ -64,6 +61,7 @@ url(https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subs
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -999;
     display: flex;
     justify-content: center;
     align-items: center;
